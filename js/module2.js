@@ -13,7 +13,7 @@
 //   // Change code below this line
 //   if (password === ADMIN_PASSWORD) {
 //     return "Welcome!";
-//   } 
+//   }
 //   return "Access denied, wrong password!"
 //   // Change code above this line
 // }
@@ -23,10 +23,10 @@
 //   // Change code below this line
 //   if (ordered === 0) {
 //     return "Your order is empty!";
-//   } 
+//   }
 //   if (ordered > available) {
 //     return "Your order is too large, not enough goods in stock!";
-//   } 
+//   }
 //   return "The order is accepted, our manager will contact you";;
 //   // Change code above this line
 // }
@@ -44,11 +44,11 @@
 // const lastElementIndex = fruits.length - 1;
 // const lastElement = fruits[lastElementIndex];
 
-// Task 9 
+// Task 9
 // function getExtremeElements(array) {
 //   // Change code below this line
 //   const firstElement = array.shift();
-//   const lastElement = array.pop(); 
+//   const lastElement = array.pop();
 //   const newArray = [firstElement, lastElement];
 //   return newArray;
 //   // Change code above this line
@@ -59,7 +59,7 @@
 //    // Change code below this line
 // const array = message.split(" ");
 // let totalPrice = 0;
-  
+
 // totalPrice = array.length * pricePerWord;
 // return totalPrice;
 //    // Change code above this line
@@ -70,7 +70,6 @@
 //   let string;
 //   // Change code below this line
 // string = array.join(delimeter);
-
 
 //   // Change code above this line
 //   return string;
@@ -110,14 +109,13 @@
 //   console.log(i);
 // }
 
-
 // Task 18
 // function calculateTotal(number) {
 //  // Change code below this line
 // let totalPrice = 0;
 // for (let i = 0; i < number; i += 1) {
 //   totalPrice += i + 1;
-  
+
 // }
 
 // return totalPrice;
@@ -164,7 +162,7 @@
 // const arr = [];
 //   for (let i of array1) {
 //     if (array2.includes(i)) {
-     
+
 //       arr.push(i);
 //     }
 
@@ -208,7 +206,7 @@
 //     if (i % 2 === 0) {
 //         array.push(i);
 //     }
-    
+
 // }
 
 // return array;
@@ -227,7 +225,7 @@
 //   }
 // }
 
-// Task 31
+// // Task 31
 // function findNumber(start, end, divisor) {
 //   // Change code below this line
 
